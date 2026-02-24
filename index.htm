@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<body>
+<h4 style="margin-left: 478px; font-size: 20px; font-family: 'Georgia';" >Styling the link color with RGBA</h4>
+
+<div style="width: 550px; margin: 0 auto; font-family: 'Georgia';">
+  <p style="text-align: justify; font-size: 20px;">
+    Next, let’s add some padding to each link, and change the<br>
+    color to a semi-transparent white. We’ll use RGBA to assign<br>
+    white (<span style="color: #00AEEF; font-family: monospace;">255, 255, 255</span>) at 70% opacity (<span style="color: #00AEEF; font-family: monospace;">0.7</span>), letting the text<br>
+    soak up some of the background color behind it (<span style="color:#666; font-family: 'Bahnschrift';">FIG 3.10</span>).
+  </p>
+</div>
+
+ <p style="margin-top: 5px; margin-left: 550px; line-height: 1.5; color: #00AEEF; font-family: monospace; white-space: pre; font-size: 18px;">
+#nav li a {
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+}
+</p>
+
+<center>
+<div style="border-top: 1px dashed #ccc; margin-top: 20px; width:600px;"></div>  <br>
+
+<div style="display: flex; align-items: center; gap: 20px; margin-left:450px;">
+    <p style="width: 250px; margin: 0; text-align: justify;">
+        <strong><span style="color:#444444; font-family: 'Consolas';">FIG 3.10:</span></strong> <strong><span style="color:#666; font-family: 'Bahnschrift';">Links now styled with
+RGBA, blending the text into 
+the background a bit. </span> </p>
+    <img src="kartinka.jpg" alt="Описание" height = 150 wight = 70">
+</div>
+
+<div style="border-bottom: 1px dashed #ccc; margin-top: 20px; width:600px;"></div>  <br>
+</center>
+<br>
+
+<div style="width: 550px; margin: 0 auto; font-family: 'Georgia', serif; font-weight: normal; font-size: ">
+  <p style="text-align: left; font-size: 20px; line-height: 1.4; color: #000; margin: 0;">
+    <span style="color: #707173; font-family: 'Arial', sans-serif; font-size: 17px; font-weight: bold;">Figure 3.11</span> 
+    shows a close up of the links, where the white at 70% opacity via RGBA lets the background shine through, ever so slightly.
+  </p>
+</div>
+
+<h4 style="margin-left: 478px; font-size: 20px; font-family: 'Georgia';" >Providing a backup for RGBA</h4>
+
+<div style="width: 550px; margin: 0 auto; font-family: 'Georgia', serif; font-weight: normal;">
+  <p style="text-align: left; font-size: 20px; line-height: 1.7; color: #000; margin: 0;">
+    Now, while RGBA is an amazingly flexible way of <br> 
+specifying color along with a level of opacity, it’s not <br> 
+supported in all browsers. Current flavors of Safari, Chrome, <br> 
+Firefox, and Opera all support it, and it’s available in Internet <br> 
+Explorer 9—but what about IE6–8? <br>
+  </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<center>
+<div style="border-bottom: 2px solid #ccc; margin-top: 20px; width:600px;"></div>  <br>
+</center>
+<br>
+</body>
+</html>
